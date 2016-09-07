@@ -12,7 +12,7 @@ Cell = class(function(cell, sudoku, row, column, block)
 	end)
 
 function Cell:setValue(new_value)
-	self.value = value
+	self.value = new_value
 end
 
 function Cell:clear()
