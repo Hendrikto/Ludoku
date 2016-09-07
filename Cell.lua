@@ -20,5 +20,5 @@ function Cell:clear()
 end
 
 function Cell:__tostring()
-	return self.value
+	return self.value == 0 and "." or self.value
 end
